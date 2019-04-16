@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/starcut/SKPaddingLabel.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/starcut/SKPaddingLabel.git", :branch => 'master', :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "SKPaddingLabel", "SKPaddingLabel/*.{h,m,swift}"
