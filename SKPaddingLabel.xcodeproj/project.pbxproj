@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		579DC2E6AC3F50ED6D1216DC /* Pods_SKPaddingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB05CD066A2153CE9130FC7 /* Pods_SKPaddingLabel.framework */; };
+		5C65DBF880598535838FDF0D /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9001AD676EE78D3019B4B2C /* Pods_Demo.framework */; };
 		7C76AAA9226564A300F89621 /* SKPaddingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C76AAA7226564A300F89621 /* SKPaddingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C76AAB62265653400F89621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76AAB52265653400F89621 /* AppDelegate.swift */; };
 		7C76AAB82265653400F89621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C76AAB72265653400F89621 /* ViewController.swift */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297781E92702A7675B3120FF /* Pods-SKPaddingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKPaddingLabel.debug.xcconfig"; path = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		39C5996ABC3F50CCA16D9F66 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5AB05CD066A2153CE9130FC7 /* Pods_SKPaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKPaddingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C76AAA4226564A300F89621 /* SKPaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKPaddingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C76AAA7226564A300F89621 /* SKPaddingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKPaddingLabel.h; sourceTree = "<group>"; };
 		7C76AAA8226564A300F89621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,6 +34,9 @@
 		7C76AABF2265653500F89621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C76AAC12265653500F89621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C76AAC52265658800F89621 /* SKPaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKPaddingLabel.swift; sourceTree = "<group>"; };
+		A6B9F0687311350945699FE3 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D9001AD676EE78D3019B4B2C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26A456A5B0AA568D9ECD49B /* Pods-SKPaddingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKPaddingLabel.release.xcconfig"; path = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579DC2E6AC3F50ED6D1216DC /* Pods_SKPaddingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C76AB2A22657C6A00F89621 /* SKPaddingLabel.framework in Frameworks */,
+				5C65DBF880598535838FDF0D /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004875FED59D5F7E8606F7A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9F0687311350945699FE3 /* Pods-Demo.debug.xcconfig */,
+				39C5996ABC3F50CCA16D9F66 /* Pods-Demo.release.xcconfig */,
+				297781E92702A7675B3120FF /* Pods-SKPaddingLabel.debug.xcconfig */,
+				F26A456A5B0AA568D9ECD49B /* Pods-SKPaddingLabel.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		33626ED98A5650FA1FA29F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9001AD676EE78D3019B4B2C /* Pods_Demo.framework */,
+				5AB05CD066A2153CE9130FC7 /* Pods_SKPaddingLabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C76AA9A226564A200F89621 = {
 			isa = PBXGroup;
 			children = (
 				7C76AAA6226564A300F89621 /* SKPaddingLabel */,
 				7C76AAB42265653400F89621 /* Demo */,
 				7C76AAA5226564A300F89621 /* Products */,
+				004875FED59D5F7E8606F7A6 /* Pods */,
+				33626ED98A5650FA1FA29F82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C76AAAC226564A300F89621 /* Build configuration list for PBXNativeTarget "SKPaddingLabel" */;
 			buildPhases = (
+				EB2A93A9CA8407EF3E2A3241 /* [CP] Check Pods Manifest.lock */,
 				7C76AA9F226564A300F89621 /* Headers */,
 				7C76AAA0226564A300F89621 /* Sources */,
 				7C76AAA1226564A300F89621 /* Frameworks */,
@@ -127,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C76AAC22265653500F89621 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				1E507B6447FEFC0EE6C3CEEC /* [CP] Check Pods Manifest.lock */,
 				7C76AAAF2265653400F89621 /* Sources */,
 				7C76AAB02265653400F89621 /* Frameworks */,
 				7C76AAB12265653400F89621 /* Resources */,
+				F31DBB32BEF887E7184B3D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +233,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E507B6447FEFC0EE6C3CEEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2A93A9CA8407EF3E2A3241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKPaddingLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31DBB32BEF887E7184B3D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SKPaddingLabel-iOS10.0/SKPaddingLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKPaddingLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C76AAA0226564A300F89621 /* Sources */ = {
@@ -362,6 +467,7 @@
 		};
 		7C76AAAD226564A300F89621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297781E92702A7675B3120FF /* Pods-SKPaddingLabel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -390,6 +496,7 @@
 		};
 		7C76AAAE226564A300F89621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26A456A5B0AA568D9ECD49B /* Pods-SKPaddingLabel.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -417,6 +524,7 @@
 		};
 		7C76AAC32265653500F89621 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B9F0687311350945699FE3 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +544,7 @@
 		};
 		7C76AAC42265653500F89621 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C5996ABC3F50CCA16D9F66 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
