@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CC7D80AC9D1B9DD12538F72648C6A3 /* SKPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61129671BA6C12E08A3549D8B92A4C10 /* SKPaddingLabel.swift */; };
+		0998938F1F03B7AE62707DC26BBE8BFE /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8554277C20E031CF4482FBCDD372668 /* Pods-Demo-dummy.m */; };
+		2E9B33F5F4B0B127DC5D3463D3A7CF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4B6095F70DD86264B71333643ADD0CB9 /* SKPaddingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5163F56D8B553AA4660F26AEB027F5C7 /* SKPaddingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB43B0950AB7B46C00624266D7820F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		703413F7BFB10893C1925560584B50AF /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17356D74E5243439C06113D5ABED5401 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E58850CA84B5CF777EA0B8150A3715 /* SKPaddingLabel-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6588B7A4F390D6697A6F54550FD16704 /* SKPaddingLabel-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F515543A2755F4F255F9563D9FF341D /* SKPaddingLabel-iOS11.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A030A8A85F8D44BFA29A773D74E620 /* SKPaddingLabel-iOS11.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991ED90E2693925C567BBCC77DB949FC /* SKPaddingLabel-iOS11.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5400D82C940F585B10B82B18DDD8603 /* SKPaddingLabel-iOS11.0-dummy.m */; };
+		9C7C4A48136D13EF67ABE3233B7B3238 /* SKPaddingLabel-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DD68F14F80D0B8EA77B3338100D97 /* SKPaddingLabel-iOS10.0-dummy.m */; };
+		9DF8F5635049E6D27B1D043302827A62 /* SKPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61129671BA6C12E08A3549D8B92A4C10 /* SKPaddingLabel.swift */; };
+		BF123D5049E02AC55A062D36F09DB87D /* Pods-SKPaddingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D28DA39AA101F546FC0CFAED1BBF0F /* Pods-SKPaddingLabel-dummy.m */; };
+		C0B675C2DFF8EE354C627A939CDD62BE /* Pods-SKPaddingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5BD23027E3B1E295333CB3F83DF389 /* Pods-SKPaddingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40603D5795153E52108888EAD171BD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E245847228B832046095B01062835026 /* SKPaddingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5163F56D8B553AA4660F26AEB027F5C7 /* SKPaddingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E324695D4D33C2B36ADDA2C4AD4AAE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D1FD6628579315213899BB5DAC56ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BFC6FB0ACB3309302616715112A9E0F;
+			remoteInfo = "SKPaddingLabel-iOS11.0";
+		};
+		FB81897E0C3B367B6CE1906ADFA6FEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B5DD40B508E45452E5300B4F39C225;
+			remoteInfo = "SKPaddingLabel-iOS10.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F8B35EA1C20F894FF6942752B89C0B /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		077C0A0D69B8E47D744C3C2ED82DC8C6 /* Pods-SKPaddingLabel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKPaddingLabel-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A5BD23027E3B1E295333CB3F83DF389 /* Pods-SKPaddingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKPaddingLabel-umbrella.h"; sourceTree = "<group>"; };
+		14A030A8A85F8D44BFA29A773D74E620 /* SKPaddingLabel-iOS11.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKPaddingLabel-iOS11.0-umbrella.h"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-umbrella.h"; sourceTree = "<group>"; };
+		17356D74E5243439C06113D5ABED5401 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		1A6CD108021107D2B9E56A287EAF9EB9 /* Pods-SKPaddingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKPaddingLabel-Info.plist"; sourceTree = "<group>"; };
+		1A72BB6BB50DFB52AFA78EA2F2A57BBB /* SKPaddingLabel-iOS11.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKPaddingLabel-iOS11.0-prefix.pch"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-prefix.pch"; sourceTree = "<group>"; };
+		291AA38E12A56197E37D545330A1D3B0 /* Pods-SKPaddingLabel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKPaddingLabel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E34C071658C3535CF9B93F1E628D651 /* SKPaddingLabel-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SKPaddingLabel-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		2F3A927392DBC5F50B23CEB20826904B /* Pods-SKPaddingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKPaddingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		493DD68F14F80D0B8EA77B3338100D97 /* SKPaddingLabel-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPaddingLabel-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		5163F56D8B553AA4660F26AEB027F5C7 /* SKPaddingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPaddingLabel.h; path = SKPaddingLabel/SKPaddingLabel.h; sourceTree = "<group>"; };
+		5581631C0B332E2753F7864970C38526 /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		5A803AE6FB0F28D0D5C1F4805A043EA8 /* Pods-SKPaddingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKPaddingLabel.modulemap"; sourceTree = "<group>"; };
+		5D15B4879CC7C3F4029FE60374635A86 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		61129671BA6C12E08A3549D8B92A4C10 /* SKPaddingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPaddingLabel.swift; path = SKPaddingLabel/SKPaddingLabel.swift; sourceTree = "<group>"; };
+		6588B7A4F390D6697A6F54550FD16704 /* SKPaddingLabel-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPaddingLabel-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		6F1F9F304459C5113FDDAF30C6A4F08A /* SKPaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPaddingLabel.framework; path = "SKPaddingLabel-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C6104B731A2F269EED2168E7E8304F /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78162C57153BFFF593C4294F68645E94 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		81B712E8FE6EA0AAC668F1A9A90520BA /* SKPaddingLabel-iOS10.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKPaddingLabel-iOS10.0-Info.plist"; sourceTree = "<group>"; };
+		890754E2C0B11BEA067D569AEBFB9C1C /* SKPaddingLabel-iOS11.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SKPaddingLabel-iOS11.0-Info.plist"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-Info.plist"; sourceTree = "<group>"; };
+		90E98920BD878DAF370C36D358F2D46D /* SKPaddingLabel-iOS11.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SKPaddingLabel-iOS11.0.xcconfig"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0.xcconfig"; sourceTree = "<group>"; };
+		9A1A0ACD9A1AE827949289668C8EDCF0 /* SKPaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPaddingLabel.framework; path = "SKPaddingLabel-iOS11.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5752801C2B8290D74ECBE0C41F8B72D /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E748F8B3205BA683F03FC3869E4A9C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5400D82C940F585B10B82B18DDD8603 /* SKPaddingLabel-iOS11.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKPaddingLabel-iOS11.0-dummy.m"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-dummy.m"; sourceTree = "<group>"; };
+		B83C68437A06E0360C4773D248D1F93C /* SKPaddingLabel-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPaddingLabel-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		B8734E5E7EB73BA91BB8BF8A9E4A99D6 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
+		B87584C22FB8EA79DA857127AD2B444D /* SKPaddingLabel-iOS11.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SKPaddingLabel-iOS11.0.modulemap"; path = "../SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0.modulemap"; sourceTree = "<group>"; };
+		B9E1BE2AFF22FDD221EA4CF74E18CA19 /* Pods_SKPaddingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKPaddingLabel.framework; path = "Pods-SKPaddingLabel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3325119D39B19D058F3636A73EFC333 /* Pods-SKPaddingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKPaddingLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		DC73B9FDF686F8068A49981C15C15E09 /* SKPaddingLabel-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SKPaddingLabel-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		F7D28DA39AA101F546FC0CFAED1BBF0F /* Pods-SKPaddingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKPaddingLabel-dummy.m"; sourceTree = "<group>"; };
+		F8554277C20E031CF4482FBCDD372668 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142A2E48015D9AE0F2126B64A5A93F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9B33F5F4B0B127DC5D3463D3A7CF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A2A369B5341FCDB2A4453C2292BC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E324695D4D33C2B36ADDA2C4AD4AAE66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB17A8724BC44DBF6167EEE80BCF222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40603D5795153E52108888EAD171BD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8DA6DEC9F2623FF24D8998552B4363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB43B0950AB7B46C00624266D7820F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FC8A1CDF7176991071F0BA0F183E36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F04C6F64623EA854819F7599F93097 /* SKPaddingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E9CEAF9A8FBC6216A76CF9D90B7CB41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E34C071658C3535CF9B93F1E628D651 /* SKPaddingLabel-iOS10.0.modulemap */,
+				DC73B9FDF686F8068A49981C15C15E09 /* SKPaddingLabel-iOS10.0.xcconfig */,
+				493DD68F14F80D0B8EA77B3338100D97 /* SKPaddingLabel-iOS10.0-dummy.m */,
+				81B712E8FE6EA0AAC668F1A9A90520BA /* SKPaddingLabel-iOS10.0-Info.plist */,
+				B83C68437A06E0360C4773D248D1F93C /* SKPaddingLabel-iOS10.0-prefix.pch */,
+				6588B7A4F390D6697A6F54550FD16704 /* SKPaddingLabel-iOS10.0-umbrella.h */,
+				B87584C22FB8EA79DA857127AD2B444D /* SKPaddingLabel-iOS11.0.modulemap */,
+				90E98920BD878DAF370C36D358F2D46D /* SKPaddingLabel-iOS11.0.xcconfig */,
+				B5400D82C940F585B10B82B18DDD8603 /* SKPaddingLabel-iOS11.0-dummy.m */,
+				890754E2C0B11BEA067D569AEBFB9C1C /* SKPaddingLabel-iOS11.0-Info.plist */,
+				1A72BB6BB50DFB52AFA78EA2F2A57BBB /* SKPaddingLabel-iOS11.0-prefix.pch */,
+				14A030A8A85F8D44BFA29A773D74E620 /* SKPaddingLabel-iOS11.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKPaddingLabel-iOS10.0";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ACD3916AA21FBB2D9EFA54BCD9B53280 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09D7726233A3991CA40674E2EDF0091 /* Pods-Demo */,
+				C295AE4B11EEEDBEAE294DED50E6A3C0 /* Pods-SKPaddingLabel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C295AE4B11EEEDBEAE294DED50E6A3C0 /* Pods-SKPaddingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5A803AE6FB0F28D0D5C1F4805A043EA8 /* Pods-SKPaddingLabel.modulemap */,
+				291AA38E12A56197E37D545330A1D3B0 /* Pods-SKPaddingLabel-acknowledgements.markdown */,
+				077C0A0D69B8E47D744C3C2ED82DC8C6 /* Pods-SKPaddingLabel-acknowledgements.plist */,
+				F7D28DA39AA101F546FC0CFAED1BBF0F /* Pods-SKPaddingLabel-dummy.m */,
+				1A6CD108021107D2B9E56A287EAF9EB9 /* Pods-SKPaddingLabel-Info.plist */,
+				0A5BD23027E3B1E295333CB3F83DF389 /* Pods-SKPaddingLabel-umbrella.h */,
+				D3325119D39B19D058F3636A73EFC333 /* Pods-SKPaddingLabel.debug.xcconfig */,
+				2F3A927392DBC5F50B23CEB20826904B /* Pods-SKPaddingLabel.release.xcconfig */,
+			);
+			name = "Pods-SKPaddingLabel";
+			path = "Target Support Files/Pods-SKPaddingLabel";
+			sourceTree = "<group>";
+		};
+		C4F04C6F64623EA854819F7599F93097 /* SKPaddingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5163F56D8B553AA4660F26AEB027F5C7 /* SKPaddingLabel.h */,
+				61129671BA6C12E08A3549D8B92A4C10 /* SKPaddingLabel.swift */,
+				8E9CEAF9A8FBC6216A76CF9D90B7CB41 /* Support Files */,
+			);
+			name = SKPaddingLabel;
+			path = SKPaddingLabel;
+			sourceTree = "<group>";
+		};
+		CE2FBC93F75CE38ACD6F1A66956A831A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E748F8B3205BA683F03FC3869E4A9C /* Pods_Demo.framework */,
+				B9E1BE2AFF22FDD221EA4CF74E18CA19 /* Pods_SKPaddingLabel.framework */,
+				6F1F9F304459C5113FDDAF30C6A4F08A /* SKPaddingLabel.framework */,
+				9A1A0ACD9A1AE827949289668C8EDCF0 /* SKPaddingLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60FC8A1CDF7176991071F0BA0F183E36 /* Pods */,
+				CE2FBC93F75CE38ACD6F1A66956A831A /* Products */,
+				ACD3916AA21FBB2D9EFA54BCD9B53280 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D09D7726233A3991CA40674E2EDF0091 /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5581631C0B332E2753F7864970C38526 /* Pods-Demo.modulemap */,
+				70C6104B731A2F269EED2168E7E8304F /* Pods-Demo-acknowledgements.markdown */,
+				5D15B4879CC7C3F4029FE60374635A86 /* Pods-Demo-acknowledgements.plist */,
+				F8554277C20E031CF4482FBCDD372668 /* Pods-Demo-dummy.m */,
+				06F8B35EA1C20F894FF6942752B89C0B /* Pods-Demo-frameworks.sh */,
+				B8734E5E7EB73BA91BB8BF8A9E4A99D6 /* Pods-Demo-Info.plist */,
+				17356D74E5243439C06113D5ABED5401 /* Pods-Demo-umbrella.h */,
+				A5752801C2B8290D74ECBE0C41F8B72D /* Pods-Demo.debug.xcconfig */,
+				78162C57153BFFF593C4294F68645E94 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02C52B1AFE33FCD776ABA61BC274FCFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F515543A2755F4F255F9563D9FF341D /* SKPaddingLabel-iOS11.0-umbrella.h in Headers */,
+				E245847228B832046095B01062835026 /* SKPaddingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8546CF655B934146AF959317CC8981DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E58850CA84B5CF777EA0B8150A3715 /* SKPaddingLabel-iOS10.0-umbrella.h in Headers */,
+				4B6095F70DD86264B71333643ADD0CB9 /* SKPaddingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91699B9DA4B80C53E01DAACA09D2B5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703413F7BFB10893C1925560584B50AF /* Pods-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02CCCF9179735DF44E528A7BA16482F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B675C2DFF8EE354C627A939CDD62BE /* Pods-SKPaddingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07B10EEFF7484099D02CA4C45D49F85D /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E659D84DC727D9EA8E8CC63A92AC22 /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				A91699B9DA4B80C53E01DAACA09D2B5A /* Headers */,
+				AC68AA4B0192A0DD7426CAF632C79C36 /* Sources */,
+				DE8DA6DEC9F2623FF24D8998552B4363 /* Frameworks */,
+				901A8EA2A17CAFF78111315BFA06B11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449ACD8FB24D752B4E6088D0B4F6A2B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = B2E748F8B3205BA683F03FC3869E4A9C /* Pods_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BFC6FB0ACB3309302616715112A9E0F /* SKPaddingLabel-iOS11.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE60477CBF3B3A2D68C643EB62C03D95 /* Build configuration list for PBXNativeTarget "SKPaddingLabel-iOS11.0" */;
+			buildPhases = (
+				02C52B1AFE33FCD776ABA61BC274FCFD /* Headers */,
+				B4D618AB0B002B9833AE26BA7498E826 /* Sources */,
+				142A2E48015D9AE0F2126B64A5A93F19 /* Frameworks */,
+				3E3B956879C61BE323E54916C785DC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKPaddingLabel-iOS11.0";
+			productName = "SKPaddingLabel-iOS11.0";
+			productReference = 9A1A0ACD9A1AE827949289668C8EDCF0 /* SKPaddingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50B5DD40B508E45452E5300B4F39C225 /* SKPaddingLabel-iOS10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D1FBFEEC703E946986F07BF9750F20 /* Build configuration list for PBXNativeTarget "SKPaddingLabel-iOS10.0" */;
+			buildPhases = (
+				8546CF655B934146AF959317CC8981DA /* Headers */,
+				0776660E2F53F84EDABFD3322719D19E /* Sources */,
+				94A2A369B5341FCDB2A4453C2292BC67 /* Frameworks */,
+				3C3DE01730EC65F68821B924545429E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKPaddingLabel-iOS10.0";
+			productName = "SKPaddingLabel-iOS10.0";
+			productReference = 6F1F9F304459C5113FDDAF30C6A4F08A /* SKPaddingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E5548E0E53F0821E57B69162A967B8 /* Pods-SKPaddingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238D67F3A62CED8363230822B47DF022 /* Build configuration list for PBXNativeTarget "Pods-SKPaddingLabel" */;
+			buildPhases = (
+				E02CCCF9179735DF44E528A7BA16482F /* Headers */,
+				82E388D4093565AFC6A39345ECBFD88F /* Sources */,
+				DCB17A8724BC44DBF6167EEE80BCF222 /* Frameworks */,
+				76FDE4AA734B4BD5C0EDFD1E33E1C663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A2CC62D93656D91096B5F742E1592D /* PBXTargetDependency */,
+			);
+			name = "Pods-SKPaddingLabel";
+			productName = "Pods-SKPaddingLabel";
+			productReference = B9E1BE2AFF22FDD221EA4CF74E18CA19 /* Pods_SKPaddingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE2FBC93F75CE38ACD6F1A66956A831A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B10EEFF7484099D02CA4C45D49F85D /* Pods-Demo */,
+				70E5548E0E53F0821E57B69162A967B8 /* Pods-SKPaddingLabel */,
+				50B5DD40B508E45452E5300B4F39C225 /* SKPaddingLabel-iOS10.0 */,
+				4BFC6FB0ACB3309302616715112A9E0F /* SKPaddingLabel-iOS11.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3DE01730EC65F68821B924545429E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3B956879C61BE323E54916C785DC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FDE4AA734B4BD5C0EDFD1E33E1C663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901A8EA2A17CAFF78111315BFA06B11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0776660E2F53F84EDABFD3322719D19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7C4A48136D13EF67ABE3233B7B3238 /* SKPaddingLabel-iOS10.0-dummy.m in Sources */,
+				9DF8F5635049E6D27B1D043302827A62 /* SKPaddingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E388D4093565AFC6A39345ECBFD88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF123D5049E02AC55A062D36F09DB87D /* Pods-SKPaddingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC68AA4B0192A0DD7426CAF632C79C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0998938F1F03B7AE62707DC26BBE8BFE /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D618AB0B002B9833AE26BA7498E826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991ED90E2693925C567BBCC77DB949FC /* SKPaddingLabel-iOS11.0-dummy.m in Sources */,
+				06CC7D80AC9D1B9DD12538F72648C6A3 /* SKPaddingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		449ACD8FB24D752B4E6088D0B4F6A2B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKPaddingLabel-iOS10.0";
+			target = 50B5DD40B508E45452E5300B4F39C225 /* SKPaddingLabel-iOS10.0 */;
+			targetProxy = FB81897E0C3B367B6CE1906ADFA6FEA3 /* PBXContainerItemProxy */;
+		};
+		C7A2CC62D93656D91096B5F742E1592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKPaddingLabel-iOS11.0";
+			target = 4BFC6FB0ACB3309302616715112A9E0F /* SKPaddingLabel-iOS11.0 */;
+			targetProxy = 30D1FD6628579315213899BB5DAC56ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A7E80FFD5097DFB654BA63379075BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78162C57153BFFF593C4294F68645E94 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		419AE8AF2FBBBB8AB3A5317B454EA44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E98920BD878DAF370C36D358F2D46D /* SKPaddingLabel-iOS11.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0.modulemap";
+				PRODUCT_MODULE_NAME = SKPaddingLabel;
+				PRODUCT_NAME = SKPaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		482DB64057F5F72897E41ED99805106F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5752801C2B8290D74ECBE0C41F8B72D /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82A037C577453D181F14BF3FEF39DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3A927392DBC5F50B23CEB20826904B /* Pods-SKPaddingLabel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3F49BBE622D43B1165FAAD7D18AA7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3325119D39B19D058F3636A73EFC333 /* Pods-SKPaddingLabel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKPaddingLabel/Pods-SKPaddingLabel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD3F0222FDE135276E17E7EB7290242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC73B9FDF686F8068A49981C15C15E09 /* SKPaddingLabel-iOS10.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0.modulemap";
+				PRODUCT_MODULE_NAME = SKPaddingLabel;
+				PRODUCT_NAME = SKPaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1A1F66B3009BFE1846DE89616E77066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E98920BD878DAF370C36D358F2D46D /* SKPaddingLabel-iOS11.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPaddingLabel-iOS11.0/SKPaddingLabel-iOS11.0.modulemap";
+				PRODUCT_MODULE_NAME = SKPaddingLabel;
+				PRODUCT_NAME = SKPaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EACB131CE30830514F2055ECFABA791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC73B9FDF686F8068A49981C15C15E09 /* SKPaddingLabel-iOS10.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKPaddingLabel-iOS10.0/SKPaddingLabel-iOS10.0.modulemap";
+				PRODUCT_MODULE_NAME = SKPaddingLabel;
+				PRODUCT_NAME = SKPaddingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238D67F3A62CED8363230822B47DF022 /* Build configuration list for PBXNativeTarget "Pods-SKPaddingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F49BBE622D43B1165FAAD7D18AA7E6 /* Debug */,
+				82A037C577453D181F14BF3FEF39DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E659D84DC727D9EA8E8CC63A92AC22 /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482DB64057F5F72897E41ED99805106F /* Debug */,
+				2A7E80FFD5097DFB654BA63379075BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D1FBFEEC703E946986F07BF9750F20 /* Build configuration list for PBXNativeTarget "SKPaddingLabel-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACB131CE30830514F2055ECFABA791A /* Debug */,
+				DFD3F0222FDE135276E17E7EB7290242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE60477CBF3B3A2D68C643EB62C03D95 /* Build configuration list for PBXNativeTarget "SKPaddingLabel-iOS11.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419AE8AF2FBBBB8AB3A5317B454EA44F /* Debug */,
+				E1A1F66B3009BFE1846DE89616E77066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

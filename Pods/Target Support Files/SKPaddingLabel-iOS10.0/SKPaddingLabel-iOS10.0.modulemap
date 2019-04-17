@@ -1,0 +1,6 @@
+framework module SKPaddingLabel {
+  umbrella header "SKPaddingLabel-iOS10.0-umbrella.h"
+
+  export *
+  module * { export * }
+}
