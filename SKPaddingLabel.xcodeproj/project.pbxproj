@@ -14,6 +14,7 @@
 		7CE588F62266D75000F81F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE588F52266D75000F81F42 /* Assets.xcassets */; };
 		7CE588F92266D75000F81F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE588F72266D75000F81F42 /* LaunchScreen.storyboard */; };
 		7CE588FF2266D78300F81F42 /* SKPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE588FE2266D78300F81F42 /* SKPaddingLabel.swift */; };
+		7CE589032266EC5700F81F42 /* SKPaddingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE588DD2266D72D00F81F42 /* SKPaddingLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE589032266EC5700F81F42 /* SKPaddingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +56,7 @@
 				7CE588DF2266D72D00F81F42 /* SKPaddingLabel */,
 				7CE588ED2266D74F00F81F42 /* Demo */,
 				7CE588DE2266D72D00F81F42 /* Products */,
+				7CE589022266EC5700F81F42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +90,13 @@
 				7CE588FA2266D75000F81F42 /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		7CE589022266EC5700F81F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
