@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class SKPaddingLabel: UILabel {
+open class SKPaddingLabel: UILabel {
     // padding
     private var padding: UIEdgeInsets = UIEdgeInsets.zero
     
@@ -35,17 +35,17 @@ class SKPaddingLabel: UILabel {
         }
     }
     
-    override func drawText(in rect: CGRect) {
+    override open func drawText(in rect: CGRect) {
         let newRect = rect.inset(by: self.padding)
         self.layoutIfNeeded()
         super.drawText(in: newRect)
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
     }
     
-    override var intrinsicContentSize: CGSize {
+    override open var intrinsicContentSize: CGSize {
         var contentSize = super.intrinsicContentSize
         contentSize.height += self.padding.top + self.padding.bottom
         contentSize.width += self.padding.left + self.padding.right
