@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.paddingLabel?.padding = UIEdgeInsets(top: 10, left: 10, bottom: 101, right: 0)
         // Do any additional setup after loading the view.
     }
 

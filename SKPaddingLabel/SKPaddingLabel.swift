@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 open class SKPaddingLabel: UILabel {
     // padding
-    private var padding: UIEdgeInsets = UIEdgeInsets.zero
+    open var padding: UIEdgeInsets = UIEdgeInsets.zero
     
     // 上下左右のpaddingを設定する
     @IBInspectable var topPadding: CGFloat = 0.0 {
